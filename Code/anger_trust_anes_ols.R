@@ -31,3 +31,25 @@ m6 <- lm(have_say_dv ~ anger + democrat + lib_con_scale + female + non_white + e
          data = subset(df1, non_white == 1))
 summary(m6)
 
+# testing for effect of education
+# Some college +
+m7 <- lm(govt_cares_dv ~ anger + democrat + educ + trust + lib_con_scale + female + non_white + activism , 
+         data = subset(df1, educ > 1/3))
+summary(m7)
+
+# HS or less
+m8 <- lm(govt_cares_dv ~ anger + democrat + educ + trust + lib_con_scale + female + non_white + activism , 
+         data = subset(df1, educ == 1/3))
+summary(m8)
+
+# Some college +
+m9 <- lm(have_say_dv ~ anger + democrat + educ + trust + lib_con_scale + female + non_white + activism , 
+         data = subset(df1, educ > 1/3))
+summary(m9)
+
+# HS or less
+m10 <- lm(have_say_dv ~ anger + democrat + educ + trust + lib_con_scale + female + non_white + activism , 
+          data = subset(df1, educ == 1/3))
+summary(m10)
+
+
