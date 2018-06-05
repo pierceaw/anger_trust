@@ -1,0 +1,38 @@
+Variables for Replicating "Anger and Declining Trust in Government in the
+American Electorate" by Steven Webster
+
+2016 ANES Variables
+-------------------
+Independent variables
+-------------------
+CASEID,   unique ID
+v161116,  anger dem
+v161121,  anger rep
+v161236,  anger obama
+v161158x, party
+v161126,  ideology
+v161342,  female
+v161310a, race
+v161270,  education
+v161215,  preelection trust
+
+--------------------
+activism scale
+--------------------
+v162011,  attend rally
+v162010,  talk to others
+v162012,  display a yardsign
+v162013,  work for a political party
+v162014,  donate money to candidate
+v162016,  donate money to party
+v162017,  donate to third pary pol org
+v162018a, attend march or rally
+v162196,  attend a school board
+v162018b, sign a political petition
+v162019,  contact mem of cong
+
+----------------------
+Dependent Variables
+----------------------
+v162216,  have say in govt
+v162215,  govt cares

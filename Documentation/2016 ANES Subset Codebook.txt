@@ -1,0 +1,650 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+           American National Election Study (ANES) 2016 - released 4/3/17
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             ID Number                                           1
+      v161116            PRE: Affect for Democratic Pres cand: angry         1
+      v161121            PRE: Affect for Republican Pres cand: angry         1
+      v161236            PRE: Affect for Obama - angry                       2
+      v161158x           PRE: SUMMARY - Party ID                             2
+      v161126            PRE: 7pt scale Liberal conservative self-placeme    3
+      v161342            PRE FTF CASI / WEB: R self-identified gender        3
+      v161310a           PRE: R self-identified race - White mentioned       3
+      v161270            PRE: Highest level of Education                     4
+      v161215            PRE: REV How often trust govt in Wash to do what    4
+      v162011            POST: R go to any political meetings, rallies, s    5
+      v162010            POST: R talk to anyone about voting for or again    5
+      v162012            POST: R wear campaign button or post sign or bum    5
+      v162013            POST: R do any (other) work for party or candida    6
+      v162014            POST: R contribute money to specific candidate c    6
+      v162016            POST: R contribute money to political party         6
+      v162017            POST: R contribute to any other group for/agains    7
+      v162018a           POST: DHS: Has R in past 12 months: joined a pro    7
+      v162196            POST: Did R attend meeting on school/community i    7
+      v162018b           POST: DHS: Has Rin past 12 months: signed petiti    8
+      v162019            POST: Contact U.S. Representative or Senator        8
+      v162216            POST: [STD] Have no say about what govt does        8
+      v162215            POST: [STD] Publ officials don't care what peopl    9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 1
+
+
+      CASEID             ID Number
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      v161116            PRE: Affect for Democratic Pres cand: angry
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Never
+               2  2. Some of the time
+               3  3. About half the time
+               4  4. Most of the time
+               5  5. Always
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/8-9
+
+      ________________________________________________________________________
+
+      v161121            PRE: Affect for Republican Pres cand: angry
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Never
+               2  2. Some of the time
+               3  3. About half the time
+               4  4. Most of the time
+               5  5. Always
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/11-12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 2
+
+
+      v161236            PRE: Affect for Obama - angry
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Never
+               2  2. Some of the time
+               3  3. About half the time
+               4  4. Most of the time
+               5  5. Always
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/14-15
+
+      ________________________________________________________________________
+
+      v161158x           PRE: SUMMARY - Party ID
+
+           VALUE  LABEL
+              -9  -9. RF (-9) in V161155 (FTF only)/ -9 in V161156 or V161157
+              -8  -8. DK (-8) in V161156 or V161157 (FTF only)
+              -2  -2. Missing
+               1  1. Strong Democrat
+               2  2. Not very strong Democract
+               3  3. Independent-Democrat
+               4  4. Independent
+               5  5. Independent-Republican
+               6  6. Not very strong Republican
+               7  7. Strong Republican
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/17-18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 3
+
+
+      v161126            PRE: 7pt scale Liberal conservative self-placement
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Extremely liberal
+               2  2. Liberal
+               3  3. Slightly liberal
+               4  4. Moderate, middle of the road
+               5  5. Slightly conservative
+               6  6. Conservative
+               7  7. Extremely conservative
+              99  99. Haven't thought much about this (FTF ONLY: DO NOT PROBE)
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/20-21
+
+      ________________________________________________________________________
+
+      v161342            PRE FTF CASI / WEB: R self-identified gender
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Male
+               2  2. Female
+               3  3. Other
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/23-24
+
+      ________________________________________________________________________
+
+      v161310a           PRE: R self-identified race - White mentioned
+
+           VALUE  LABEL
+              -9  -9. Refused question
+              -8  -8. Don't know race (FTF only)
+               0  0. Not selected
+               1  1. Selected
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/26-27
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 4
+
+
+      v161270            PRE: Highest level of Education
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Less than 1st grade
+               2  2. 1st, 2nd, 3rd or 4th grade
+               3  3. 5th or 6th grade
+               4  4. 7th or 8th grade
+               5  5. 9th grade
+               6  6. 10th grade
+               7  7. 11th grade
+               8  8. 12th grade no diploma
+               9  9. High school graduate- high school diploma or equivalent (for example: GED)
+              10  10. Some college but no degree
+              11  11. Associate degree in college - occupational/vocational program
+              12  12. Associate degree in college -- academic program
+              13  13. Bachelor's degree (for example: BA, AB, BS)
+              14  14. Master's degree (for example: MA, MS, MENG, MED, MSW, MBA)
+              15  15. Professional school degree (for example: MD, DDS, DVM, LLB, JD)
+              16  16. Doctorate degree (for example: PHD, EDD)
+              90  90. Other specify given as: high school graduate
+              95  95. Other SPECIFY
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Maximum code defined as valid: 16
+           Record/columns: 1/29-30
+
+      ________________________________________________________________________
+
+      v161215            PRE: REV How often trust govt in Wash to do what is right
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know (FTF only)
+               1  1. Always
+               2  2. Most of the time
+               3  3. About half the time
+               4  4. Some of the time
+               5  5. Never
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/32-33
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 5
+
+
+      v162011            POST: R go to any political meetings, rallies, speeches
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/35-36
+
+      ________________________________________________________________________
+
+      v162010            POST: R talk to anyone about voting for or against cand or pty
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/38-39
+
+      ________________________________________________________________________
+
+      v162012            POST: R wear campaign button or post sign or bumper sticker
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/41-42
+
+
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 6
+
+
+      v162013            POST: R do any (other) work for party or candidate
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/44-45
+
+      ________________________________________________________________________
+
+      v162014            POST: R contribute money to specific candidate campaign
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/47-48
+
+      ________________________________________________________________________
+
+      v162016            POST: R contribute money to political party
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/50-51
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 7
+
+
+      v162017            POST: R contribute to any other group for/against a cand
+
+           VALUE  LABEL
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes
+               2  2. No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/53-54
+
+      ________________________________________________________________________
+
+      v162018a           POST: DHS: Has R in past 12 months: joined a protest march
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Have done this in past 12 months
+               2  2. Have not done this in past 12 months
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/56-57
+
+      ________________________________________________________________________
+
+      v162196            POST: Did R attend meeting on school/community issue past 12 months
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Yes, have done this in the past 12 months
+               2  2. No, have not done this
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/59-60
+
+
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 8
+
+
+      v162018b           POST: DHS: Has Rin past 12 months: signed petition
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Have done this in past 12 months
+               2  2. Have not done this in past 12 months
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/62-63
+
+      ________________________________________________________________________
+
+      v162019            POST: Contact U.S. Representative or Senator
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Have done this in past 12 months
+               2  2. Have not done this in past 12 months
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/65-66
+
+      ________________________________________________________________________
+
+      v162216            POST: [STD] Have no say about what govt does
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Agree strongly
+               2  2. Agree somewhat
+               3  3. Neither agree nor disagree
+               4  4. Disagree somewhat
+               5  5. Disagree strongly
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/68-69
+
+
+
+
+
+                                    June 4, 2018
+
+
+
+      American National Election Study (ANES) 2016 - released 4/3/17    Page 9
+
+
+      v162215            POST: [STD] Publ officials don't care what people think
+
+           VALUE  LABEL
+              -9  -9. Refused
+              -8  -8. Don't know
+              -7  -7. No post data, deleted due to incomplete IW
+              -6  -6. No post-election interview
+               1  1. Agree strongly
+               2  2. Agree somewhat
+               3  3. Neither agree nor disagree
+               4  4. Disagree somewhat
+               5  5. Disagree strongly
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/71-72
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    June 4, 2018
