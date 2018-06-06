@@ -46,6 +46,6 @@ var_selection_by_permute(bm1, num_reps_for_avg=20)
 ice1 <- ice(bm1, X, y, "anger")
 plot(ice1, centered = TRUE, color_by = "non_white") # plot for different interactions base on white/nonwhite
 plot(ice1, centered = TRUE, color_by = "female") # plot for different interactions base on male/female
-
+plot(ice1, centered = TRUE, color_by = "educ")
 
 
