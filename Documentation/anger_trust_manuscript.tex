@@ -90,6 +90,24 @@ y_i = \alpha + \beta_1\textrm{Anger} + \beta_2\textrm{PoliticalAnger} + \beta_3\
 
 To test for heterogeneous treatment effects by individuals' racial affiliation, we subset the model shown in Equation \ref{eq:experiment-model} to include only those individuals who racially identify as something other than White. Estimating our model only on the subset of individuals who identify as non-White functionally achieves the same thing as including a series of dummy variables for non-White respondents and interacting them with the indicators for treatment status. However, to facilitate a comparison of the relationship between anger and trust in government for Whites and non-Whites, we also estimate Equation \ref{eq:experiment-model} on the entire sample. We then simultaneously present the results of these two models in Figure \ref{fig:coef_plot}.
 
+\section{Results}
+\label{sec:results}
+
+% ANES stuff here
+
+In addition to the observational results described above, the results of our experimental manipulation suggest that the strength of the relationship between anger and reduced trust in government is dependent upon one's racial affiliation. Recall that the expectation is that those individuals who were randomized into one of the treatment groups that sought to prime anger should be more distrustful of the national government. Mechanically, this implies that the coefficient on the treatment indicators for the anger-only condition and the anger-about-politics condition should be positive. The results, shown in Figure \ref{fig:coef_plot}, provide a considerable amount of support for this hypothesis.
+
+The results indicate that anger has differential effects depending upon whether an individual is White or non-White. Among White participants, apolitical anger increases distrust in the national government ($p < .05$) as does targeted political anger ($p < .1$). Merely thinking about politics does not have any statistically significant effect on trust in government. The results for non-White participants are slightly different. Among non-Whites, apolitical anger has no statistically discernible effect on lowering trust in government. However, non-White individuals who were randomized into the targeted political anger condition exhibit a greater amount of distrust in the national government than White individuals who were randomized into this same treatment condition. Moreover, for non-White experiment participants, merely \emph{thinking} about politics served to reduce trust in the national government. Taken together, these results suggest that anger's ability to reduce the citizenry's trust in the national government is, to a degree, conditional upon an individual's racial identity.
+
+\begin{center}
+\begin{figure}
+\includegraphics[width=\textwidth]{coefs}
+\caption{\footnotesize\textit{The Relationship Between Anger, Race, and Trust in Government.} This figure shows the coefficient estimates from the experimental manipulation that sought to induce anger in participants. The figure suggests that higher levels of anger reduces trust in government and that this effect is greater for non-White individuals.}
+\label{fig:coef_plot}
+\end{figure}
+\end{center}
+
+
 \newpage
 \begin{singlespacing}
 \bibliographystyle{apsr.bst}
