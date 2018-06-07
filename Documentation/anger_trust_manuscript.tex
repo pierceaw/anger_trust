@@ -1,16 +1,100 @@
-\documentclass[12pt]{article}
-\usepackage[margin = 1in]{geometry}
+\documentclass[12pt, letterpaper]{article}
+%, titlepage
+\usepackage[left=1in, right=1in]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   % ... or a4paper or a5paper or ...
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx, subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{pbox}
+\usepackage{url}
+\newtheorem{hyp}{Hypothesis} 
+\usepackage{appendix}
+% \usepackage[nolists, nomarkers, heads]{endfloat}
+\setcounter{secnumdepth}{2}
+\usepackage[T1]{fontenc}
+%\usepackage{fourier}
 
-\author{Andrew W. Pierce \\ Steven W. Webster}
+\def\citepos#1{\citeauthor{#1}'s (\citeyear{#1})} % possessive citations
+
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+\author{Andrew W. Pierce \\ University of Georgia \and Steven W. Webster \\ Washington University in St. Louis}
 \title{How Race Influences the Impact of Anger on Trust in Government}
 \date{\today}
 
-\usepackage{Sweave}
+%\usepackage{Sweave}
 \begin{document}
-\input{anger_trust_manuscript-concordance}
+%\input{anger_trust_manuscript-concordance}
 
+\begin{titlepage}
 \maketitle
 
+\thispagestyle{empty}
+
+\begin{singlespacing}
+\abstract{whatever}
+\end{singlespacing}
+
+\end{titlepage}
+
+%%%%%%%%%%
+% end title page %
+%%%%%%%%%%
+
+\newpage
+\setcounter{page}{1}
+
+\doublespacing
+
+\section{Data \& Design}
+\label{sec:design}
+
+\subsection{Observational Analysis}
+\label{subsec:anes}
+
+ describe anes study here. bart models.
+
+\subsection{Experimental Design}
+\label{subsec:experiment}
+
+The data for this study come from a survey experiment fielded via Survey Sampling International (SSI) during Fall 2016.  \textbf{more}
+
+The data for this study contains a pre- and post-experiment survey. Before the experiment, participants were asked to fill out a series of demographic questions. These questions include the respondent's year of birth, gender, race, yearly income, and and level of education. Participants were also asked a series of political identification questions. These questions include an individual's partisan affiliation and ideological leanings, both of which are measured on a seven-point scale.\footnote{These questions are analogous to those used in typical datasets, such as the American National Election Studies or the Cooperative Congressional Election Study.} Individuals were also asked about their past forms of political participation and level of interest in politics and political affairs.
+
+The experimental manipulation of the study is designed to increase individuals' level of anger. In order to do this, we rely on a technique known as ``emotional recall" \citep{lerneretal2003effects, lerner_kelter2001}. This manipulation asks individuals to write a detailed paragraph about a time they felt a given emotion (here, anger), with the expectation that writing about their experience will cause an individual to temporarily relive the triggered emotion. Such a design has become widespread in political science, and has been most notably used to study the effect of emotions on Americans' views toward terrorism \citep{lerneretal2003effects}, likelihood of participating in politics \citep{vbggh}, and seeking information about politics \citep{valentinoetal2008}.
+
+However, the experimental manipulation used in this study differs from previous uses of the technique in an important way. Typical emotional recall designs ask individuals to recount a time that they felt a particular emotion about politics. By phrasing the experimental prompt in such a way, it is likely that scholars are unintentionally introducing confounding considerations into their designs. Indeed, when the experimental prompt is phrased in such a way, it is impossible to tell whether individuals are reacting to a prompt to exhibit a higher degree of some emotion, or if they are responding to the increased salience of politics or political issues. In order to disentangle this methodological problem and obtain more valid estimates as to the causal effect of anger on rational miscalculations, the experimental recall design that we use separates the emotion (anger) from the target (politics) \citep[see also,][]{webster2017}. Thus, our design randomizes individuals into one of three treatment groups. In the first treatment group, individuals are asked to recall a time they were very angry, and to describe this time in such a way that an individual who was reading the response might also become angry. The second treatment group asks individuals to write about a time they were very angry specifically about politics, while the third treatment group asks individuals to write about a time they thought about politics. This simple modification of the experimental wording allows us to avoid concerns about confounding factors that plague other studies and, as a result, be more certain that the experimental manipulation is altering levels of anger and \emph{not} merely increasing the salience of political issues.
+
+After the experimental manipulation, subjects were asked to rate their level of agreement or disagreement with the following statement: ``The national government is unresponsive to the concerns and interests of the public." Agreement is assessed on a 0-10 scale, where higher scores indicate more agreement. Thus, higher values indicate a greater level of distrust in the national government.
+
+The unconditional expectation is that those individuals who were randomized into one of the two anger-inducing treatment groups should be more distrustful of the national government. In other words, they should give higher ratings on the post-experiment question about the government's responsiveness to the concerns and interests of the public. However, the key focus of this paper is how the relationship between anger and trust in government is moderated by the race of the respondent. As described in Section \ref{sec:theory}, our expectation is that the effect of anger on reducing trust in government should be stronger for non-Whites. Given the randomized nature of the experimental design, estimation occurs via a simple ordinary least squares (OLS) model as shown in Equation \ref{eq:experiment-model}.
+
+\vspace{-13mm}
+\begin{center}
+\begin{equation}
+y_i = \alpha + \beta_1\textrm{Anger} + \beta_2\textrm{PoliticalAnger} + \beta_3\textrm{PoliticalSalience} + \epsilon
+\label{eq:experiment-model}
+\end{equation}
+\end{center}
+
+To test for heterogeneous treatment effects by individuals' racial affiliation, we subset the model shown in Equation \ref{eq:experiment-model} to include only those individuals who racially identify as something other than White. Estimating our model only on the subset of individuals who identify as non-White functionally achieves the same thing as including a series of dummy variables for non-White respondents and interacting them with the indicators for treatment status. However, to facilitate a comparison of the relationship between anger and trust in government for Whites and non-Whites, we also estimate Equation \ref{eq:experiment-model} on the entire sample. We then simultaneously present the results of these two models in Figure \ref{fig:coef_plot}.
+
+\newpage
+\begin{singlespacing}
+\bibliographystyle{apsr.bst}
+\bibliography{anger_race_bib}
+\end{singlespacing}
 
 
 
