@@ -57,6 +57,29 @@
 
 \doublespacing
 
+\section{Why Would Race Influence the Effect of Anger on Trust?}
+\label{sec:litreview}
+
+\subsection{How Anger Impacts Trust In Government}
+\label{subsec:angertrust}
+
+\subsection{How Racial Identity Impacts Trust in Government}
+\label{subsec:racetrust}
+
+Understanding how race impacts trust in government can be understood in the various ways trust in government is defined, and the degree to which that definition is shaped by an individual's racial identity. Early definitions of trust in government considered two possible ways in citizens could evaluate their governments: the degree to which they trusted in the political system and degree to which they trusted the political regime \citep{easton1965}. This is to say that citizens can ``trust'' the government in a least 2 different ways. In the first way, individuals evaluate the likelihood of government systems and institutions to treat them fairly. In the second meaning, individuals evaluate the likelihood of the individuals and parties in charge of the government to treat them fairly. 
+
+Contemporary work has explored the degree to which partisanship influences trust according to the second definition. Given the degree to which parties pursue different policies in office, it follows that partisans would evaluate the likelihood of the current government to treat them well on the basis of which party was in charge.  \citet{keele2005} finds that, in the context of American politics, an individual's trust in government depends to a large degree on the party of the individual and the party in charge; generally, partisans trust the government less when the opposition party is in charge. Furthermore, he finds that this pattern is consistent since the 1950s, and that independents are much less likely exhibit strong swings in trust based on the party in charge. These findings are corroborated by \citet{cook2005}, who find that the type of trust measured in national surveys like the ANES tend to measure an individual's trust in the current regime as opposed to the overall political system. 
+
+While partisanship is an important predictor of trust when considering a current political regime, racial identity has been shown impact how individuals are evaluating government. \citet{wilkes2015} notes that, given the long history of institutional discrimination faced by black Americans due to their racial identities, black Americans likely evaluate the fairness and trustworthiness of the government in different ways than white Americans. Using data from the ANES covering years from 1985-2012, \citeauthor{wilkes} finds that black Americans exhibit patterns of trust that would support both a regime-oriented and system-oriented framework for evaluating the American government. Importantly, this contrasts with the behavior of white Americans, who are more likely to express trust on the basis of the party in power regardless of their trust in the overall political system.
+
+Likewise, \citet{nunnally2012} argues that the specific political socialization of black identity means that black Americans process and express trust in different ways than white Americans. Specifically, black Americans have received a unique socio-cultural message, i.e. socialization, about what it means to be black in America as well as the level of trust that can be afforded to other groups. This message, which is shaped by years of legal discrimination and exclusionary politics, directly impacts the degree to which black Americans will trust a person or level of government.\footnote{This is not to say that all black Americans receive the same racial socialization message or that levels of trust in government among black Americans is monolithic. Rather, as \citeauthor{nunnally2012} shows, there is substantial heterogeneity in levels of trust among black Americans.} From this perspective, it makes sense to expect that the psychological processing and evaluation of trustworthiness of the government varies significantly between racial groups.
+
+\section{How Race Impacts Anger}
+\label{sec:theory}
+
+By combining earlier research that anger decreases trust in government and that trust is granted by different racial groups in different ways, we theorize that  
+black Americans filter trust through anger in a different way than white Americans. Specifically, we hypothesize that black Americans will express greater levels of distrust than white Americans when experiencing similar levels of anger. 
+
 \section{Empirical Estimation}
 \label{sec:design}
 
@@ -72,6 +95,7 @@ To measure individuals' level of anger, we analyze the frequency with which indi
 Finally, to analyze how an individual's racial identity conditions the relationship between anger and his or her level of trust in government, we utilize individuals' responses to the question asking about racial affiliation. Potential responses are White, non-Hispanic; Black, non-Hispanic; Asian, native Hawaiian or other Pacific Islander; Native American; and Hispanic. We then collapse responses to this question into a dummy variable indicating whether an individual identifies as something other than White. Though this obscures any potential differences in the ways in which specific non-White racial identities condition the relationship between anger and trust in government, this approach allows us to establish a baseline as to whether such racial differences exist at all.
 
 To estimate whether racial identity conditions the relationship between anger and trust in government, we employ a series of Bayesian Additive Regression Tree (BART) models. Unlike traditional linear models, BART models do not impose any linearity conditions on the data. Moreover, BART models produce an estimate as to the relationship between anger and trust in government for each individual in our data. Thus, we are able to easily examine potential non-linearities between anger and trust in government, as well as the ways in which racial identities condition this relationship. To reduce confounding in our estimation we also include controls for individuals' self-reported ideology, their gender, their level of education, their degree of political activism, and pre-election levels of trust in government.\footnote{The political activism scale is an additive measure of 11 different campaign-related activities. These activities include attending political meetings; talking to others about politics; wearing a campaign button; working for a political party; contributing money to a party, candidate, or third-party organization; joining a political protest; attending a school board meeting; contacting a Member of Congress; and signing a petition.} The results of the BART model are shown in Figure \ref{fig:bart-results}.
+
 
 \begin{center}
 \begin{figure}
@@ -107,7 +131,7 @@ The unconditional expectation is that those individuals who were randomized into
 \vspace{-13mm}
 \begin{center}
 \begin{equation}
-y_i = \alpha + \beta_1\textrm{Anger} + \beta_2\textrm{PoliticalAnger} + \beta_3\textrm{PoliticalSalience} + \epsilon
+y_i = \alpha + \beta_1 \textrm{Anger} + \beta_2 \textrm{PoliticalAnger} + \beta_3 \textrm{PoliticalSalience} + \epsilon
 \label{eq:experiment-model}
 \end{equation}
 \end{center}

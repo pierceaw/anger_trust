@@ -84,11 +84,4 @@
   pages   = {356-371},
 }
 
-@Book{nunnally2012,
-  title     = {Trust in Black America: Race, Discrimination, and Politics},
-  publisher = {New York University Press},
-  year      = {2012},
-  author    = {Shayla C. Nunnally},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
