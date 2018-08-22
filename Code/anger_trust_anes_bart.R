@@ -48,4 +48,28 @@ plot(ice1, centered = TRUE, color_by = "non_white") # plot for different interac
 plot(ice1, centered = TRUE, color_by = "female") # plot for different interactions base on male/female
 plot(ice1, centered = TRUE, color_by = "educ")
 
+png("Documentation/bart_model.png")
+plot(ice1, centered = TRUE, color_by = "non_white",
+     axes = FALSE,
+     ylim = c(0,0.15),
+     xlab = "Level of Anger",
+     ylab = "Partial yhat (Centered)")
+title(" Individual Conditional Expectation Plot \n Anger Predicting Trust, Conditioned on Race", adj = 0)
+
+dev.off()
+
+
+librarY(pdp)
+pred.ice <- function(bm_object){
+  out <- cbind(bm_object$X, bm_object$y_hat_train)
+  colnames(out) <- c(colnames(bm1$X),"pred")
+  return(out)
+  }
+rm.ice <- partial(bm1, pred.var = "anger", pred.fun = pred.ice)
+# Figure 9
+plotPartial(rm.ice, rug = TRUE, train = boston, alpha = 0.3)
+
+
+
+
 

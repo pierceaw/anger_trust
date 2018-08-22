@@ -9,34 +9,34 @@
   year={2001}
 }
 
-@article{lerneretal2003effects,
-  title={Effects of Fear and Anger on Perceived Risks of Terrorism: A National Field Experiment},
-  author={Lerner, Jennifer S., and Gonzalez, Roxana M., and Small, Deborah A., and Fischhoff, Baruch},
-  journal={Psychological Science},
-  volume={14},
-  number={2},
-  pages={144-150},
-  year={2003}
+@Article{lerneretal2003effects,
+  author  = {{Lerner, Jennifer S.} and {Gonzalez, Roxana M.} and {Small, Deborah A.} and {Fischhoff, Baruch}},
+  title   = {Effects of Fear and Anger on Perceived Risks of Terrorism: A National Field Experiment},
+  journal = {Psychological Science},
+  year    = {2003},
+  volume  = {14},
+  number  = {2},
+  pages   = {144-150},
 }
 
-@article{vbggh,
-  title={Election Night's Alright for Fighting: The Role of Emotions in Political Participation},
-  author={Valentino, Nicholas A., and Brader, Ted, and Groenendyk, Eric W., and Gregorowicz, Krysha, and Hutchings, Vincent L.},
-  year={2011},
-  journal={The Journal of Politics},
-  voluume={73},
-  number={1},
-  pages={156-170}
+@Article{vbggh,
+  author  = {{Valentino, Nicholas A.} and {Brader, Ted} and {Groenendyk, Eric W.} and {Gregorowicz, Krysha} and {Hutchings, Vincent L.}},
+  title   = {Election Night's Alright for Fighting: The Role of Emotions in Political Participation},
+  journal = {The Journal of Politics},
+  year    = {2011},
+  number  = {1},
+  pages   = {156-170},
+  voluume = {73},
 }
 
-@article{valentinoetal2008,
-  title={Is a Worried Citizen a Good Citizen? Emotions, Political Information Seeking, and Learning via the Internet},
-  author={Valentino, Nicholas A., and Hutchings, Vincent L., and Banks, Antoine J., and Davis, Anne K.},
-  journal={Political Psychology},
-  volume={29},
-  number={2},
-  pages={247-273},
-  year={2008}
+@Article{valentinoetal2008,
+  author  = {{Valentino, Nicholas A.} and {Hutchings, Vincent L.} and {Banks, Antoine J.} and {Davis, Anne K.}},
+  title   = {Is a Worried Citizen a Good Citizen? Emotions, Political Information Seeking, and Learning via the Internet},
+  journal = {Political Psychology},
+  year    = {2008},
+  volume  = {29},
+  number  = {2},
+  pages   = {247-273},
 }
 
 @article{webster2017,
@@ -82,6 +82,13 @@
   year    = {2015},
   volume  = {49},
   pages   = {356-371},
+}
+
+@Book{nunnally2012,
+  title     = {Trust in Black America: Race, Discrimination, and Politics},
+  publisher = {New York University Press},
+  year      = {2012},
+  author    = {Shayla C. Nunnally},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
