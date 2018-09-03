@@ -1,4 +1,4 @@
-\documentclass[12pt, letterpaper]{article}
+\documentclass[11pt, letterpaper]{article}
 %, titlepage
 \usepackage[left=1in, right=1in]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 %\geometry{letterpaper}                   % ... or a4paper or a5paper or ...
@@ -63,6 +63,14 @@
 \subsection{How Anger Impacts Trust In Government}
 \label{subsec:angertrust}
 
+Many factors have been found to shape trust in government. Perhaps the most notable -- and most studied -- factor that explains variation in citizens' trust in government is one's partisan identity. As \citet{citrin1974} shows, Americans exhibit higher levels of trust in government when their preferred party has control over the governing process in Washington. Conversely, when the opposing party gains power, citizens' trust in government plummets. With the rise of ideological and affective polarization at both the elite \citep{hetherington2001, fap2005} and mass \citep{abramowitz2010, bafumi_shapiro2009} level, the relationship between partisan identity and trust in government has only been strengthened over time \citep{hetherington_rudolph2015}.
+
+Though partisanship is a consistently strong predictor of levels of trust in government, recent work indicates that emotional reactions can powerfully shape an individual's degree of trust in the national government. Indeed, \citet{webster2017} uses an experimental design to show that anger causes individuals to exhibit lower levels of governmental trust. Notably, anger's ability to lower trust in government does not depend upon the specific target of the anger. On the contrary, both political and apolitical anger have been found to attenuate citizens' trust in their own government.
+
+This finding, and others like it that study the role of emotions in politics, is largely rooted in the findings of Affective Intelligence Theory \citep{marcus_etal2000}. Rather than conceptualizing emotion and reason as separate domains that independently influence an individual's approach to (and evaluation of) the political world, Affective Intelligence argues that emotion and reason are interconnected processes. In fact, emotion and reason are so intertwined that emotions oftentimes influence both what people think about and how they think about these things. The specific ways in which emotions affect cognition and public opinion are varied, though emotions that have a negative valence (such as anger, anxiety, or fear) tend to cause people to render poor assessments of the object being evaluated. On the contrary, emotions that have a positive valence (such as happiness or optimism) often lead individuals to give positive evaluations of people, places, or institutions \citep{bower1991}.
+
+Notably, anger is an emotion that contains a negative valence. Thus, individuals who are made to be angry will tend to evaluate people or objects in a negative fashion. Such anger-induced poor evaluations have been found to affect phenomena as diverse as artwork \citep{silvia2009looking}, companies \citep{bennett1997anger}, and information about crises \citep{kim2011emotions}. Accordingly, we should expect the relationship between anger and trust in government to operate similarly. Higher levels of anger should lead to lower evaluations of the national government, expressed via the pathway of lower levels of trust.
+
 \subsection{How Racial Identity Impacts Trust in Government}
 \label{subsec:racetrust}
 
@@ -77,8 +85,7 @@ Likewise, \citet{nunnally2012} argues that the specific political socialization 
 \section{How Race Impacts Anger}
 \label{sec:theory}
 
-By combining earlier research that anger decreases trust in government and that trust is granted by different racial groups in different ways, we theorize that  
-black Americans filter trust through anger in a different way than white Americans. Specifically, we hypothesize that black Americans will express greater levels of distrust than white Americans when experiencing similar levels of anger. 
+By combining earlier research that anger decreases trust in government and that trust is granted by different racial groups in different ways, we theorize that nonwhite Americans filter trust through anger in a different way than white Americans. Specifically, we hypothesize that nonwhite Americans will express greater levels of distrust than white Americans when experiencing similar levels of anger. 
 
 \section{Empirical Estimation}
 \label{sec:design}
@@ -131,7 +138,7 @@ The unconditional expectation is that those individuals who were randomized into
 \vspace{-13mm}
 \begin{center}
 \begin{equation}
-y_i = \alpha + \beta_1 \textrm{Anger} + \beta_2 \textrm{PoliticalAnger} + \beta_3 \textrm{PoliticalSalience} + \epsilon
+y_i = \alpha + \beta_1 Anger_i + \beta_2 PoliticalAnger_i + \beta_3 PoliticalSalience_i + \epsilon
 \label{eq:experiment-model}
 \end{equation}
 \end{center}
