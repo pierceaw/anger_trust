@@ -1,12 +1,159 @@
 % Encoding: UTF-8
-@article{lerner_kelter2001,
-  title={Fear, Anger, and Risk},
-  author={Lerner, Jennifer S., and Keltner, Dacher},
-  journal={Journal of Personality and Social Psychology},
-  volume={81},
+
+@article{abramowitz2016,
+  title={The Rise of Negative Partisanship and the Nationalization of US elections in the 21st Century},
+  author={Abramowitz, Alan I and Webster, Steven},
+  journal={Electoral Studies},
+  volume={41},
+  pages={12--22},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{abrajano2010,
+  title={Assessing the Causes and Effects of Political Trust among US Latinos},
+  author={Abrajano, Marisa A and Alvarez, R Michael},
+  journal={American Politics Research},
+  volume={38},
   number={1},
-  pages={146-159},
+  pages={110--141},
+  year={2010},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@article{uslaner2003,
+  title={Civic Engagement and Particularized Trust: The Ties that Bind People to Their Ethnic Communities},
+  author={Uslaner, Eric M and Conley, Richard S},
+  journal={American Politics Research},
+  volume={31},
+  number={4},
+  pages={331--360},
+  year={2003},
+  publisher={Sage Publications}
+}
+
+@article{uslaner2005,
+  title={Inequality, Trust, and Civic Engagement},
+  author={Uslaner, Eric M and Brown, Mitchell},
+  journal={American Politics Research},
+  volume={33},
+  number={6},
+  pages={868--894},
+  year={2005},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{michelson2001,
+  title={Political Trust among Chicago Latinos},
+  author={Michelson, Melissa R},
+  journal={Journal of Urban Affairs},
+  volume={23},
+  number={3-4},
+  pages={323--334},
+  year={2001},
+  publisher={Taylor \& Francis}
+}
+
+@Article{lerner_kelter2001,
+  author  = {{Lerner, Jennifer S.} and {Keltner, Dacher}},
+  title   = {Fear, Anger, and Risk},
+  journal = {Journal of Personality and Social Psychology},
+  year    = {2001},
+  volume  = {81},
+  number  = {1},
+  pages   = {146-159},
+}
+
+@article{hetherington2001,
+  title={Resurgent Mass Partisanship: The Role of Elite Polarization},
+  author={Hetherington, Marc J.},
+  journal={American Political Science Review},
+  volume={95},
+  number={3},
+  pages={619-631},
   year={2001}
+}
+
+@article{citrin1974,
+  title={Comment: The Political Relevance of Trust in Government},
+  author={Citrin, Jack},
+  year={1974},
+  journal={American Political Science Review},
+  volume={68},
+  number={3},
+  pages={973-988}
+}
+
+@book{abramowitz2010,
+  title={The Disappearing Center: Engaged Citizens, Polarization, and American Democracy},
+  author={Abramowitz, Alan I},
+  year={2010},
+  publisher={Yale University Press}
+}
+
+@Book{marcus_etal2000,
+  title     = {Affective Intelligence and Political Judgment},
+  publisher = {University of Chicago Press},
+  year      = {2000},
+  author    = {Marcus, George E. and Neuman, W. Russell and MacKuen, Michael},
+  city      = {Chicago},
+}
+
+
+@article{bafumi_shapiro2009,
+  title={A New Partisan Voter},
+  author={Bafumi, Joseph and Shapiro, Robert Y},
+  journal={Journal of Politics},
+  volume={71},
+  number={1},
+  pages={1-24},
+  year={2009}
+}
+
+
+@incollection{bower1991,
+  author={Bower, Gordon H.},
+  year={1991},
+  title={Mood Congruity of Social Judgments},
+  booktitle={Emotions and Social Judgments},
+  pages={31-53},
+  editor={Forgas, Joseph P.},
+  publisher={Pergamon Press}
+}
+
+@Book{fap2005,
+  title     = {Culture War? The Myth of a Polarized America},
+  publisher = {Pearson Longman},
+  year      = {2005},
+  author    = {Fiorina, Morris P. and Abrams, Samuel J. and Pope, Jeremy C.},
+  city      = {New York},
+}
+
+@article{silvia2009looking,
+  title={Looking Past Pleasure: Anger, Confusion, Disgust, Pride, Surprise, and Other Unusual Aesthetic Emotions},
+  author={Silvia, Paul J.},
+  journal={Psychology of Aesthetics, Creativity, and the Arts},
+  volume={3},
+  number={1},
+  pages={48-51},
+  year={2009}
+}
+
+@Book{hetherington_rudolph2015,
+  title     = {Why Washington Won't Work: Polarization, Political Trust, and the Governing Crisis},
+  publisher = {University of Chicago Press},
+  year      = {2015},
+  author    = {Hetherington, Marc J. and Rudolph, Thomas J.},
+}
+
+@article{bennett1997anger,
+  title={Anger, Catharsis, and Purchasing Behavior Following Aggressive Customer Complaints},
+  author={Bennett, Roger},
+  journal={Journal of Consumer Marketing},
+  volume={14},
+  number={2},
+  pages={156-172},
+  year={1997}
 }
 
 @Article{lerneretal2003effects,
@@ -17,6 +164,16 @@
   volume  = {14},
   number  = {2},
   pages   = {144-150},
+}
+
+@Article{kim2011emotions,
+  author  = {Kim, Hyo J. and Cameron, Glen T.},
+  title   = {Emotions Matter in Crisis: The Role of Anger and Sadness in the Publics' Response to Crisis News Framing and Corporate Crisis Response},
+  journal = {Communication Research},
+  year    = {2011},
+  volume  = {38},
+  number  = {6},
+  pages   = {826-855},
 }
 
 @Article{vbggh,
@@ -39,13 +196,13 @@
   pages   = {247-273},
 }
 
-@article{webster2017,
-  title={Anger and Declining Trust in Government in the American Electorate},
-  author={Webster, Steven W.},
-  year={2017},
-  journal={Political Behavior},
-  pages={1-32},
-  doi={10.1007/s11109-017-9431-7}
+@Article{webster2017,
+  author  = {Webster, Steven W.},
+  title   = {Anger and Declining Trust in Government in the American Electorate},
+  journal = {Political Behavior},
+  year    = {2018},
+  pages   = {1-32},
+  doi     = {10.1007/s11109-017-9431-7},
 }
 
 @Book{easton1965,
@@ -89,6 +246,46 @@
   publisher = {New York University Press},
   year      = {2012},
   author    = {Shayla C. Nunnally},
+}
+
+@InCollection{wilkes2018,
+  author    = {Wilkes, Rima and Wu, Cary},
+  title     = {Trust and Minority Groups},
+  booktitle = {The Oxford Handbook of Social and Political Trust},
+  publisher = {Oxford University Press},
+  year      = {2018},
+  pages     = {231-250},
+}
+
+@article{rahn2005,
+  title={A Tale of Political Trust in American Cities},
+  author={Rahn, Wendy M and Rudolph, Thomas J},
+  journal={Public Opinion Quarterly},
+  volume={69},
+  number={4},
+  pages={530--560},
+  year={2005},
+  publisher={Oxford University Press}
+}
+
+@Article{humphries2013,
+  author  = {Melissa Humphries and Chandra Muller and Kathryn S. Schiller},
+  title   = {The Political Socialization of Adolescent Children of Immigrants},
+  journal = {Social Science Quarterly},
+  year    = {2013},
+  volume  = {94},
+  number  = {5},
+  pages   = {1261-1282},
+}
+
+@Article{bramber2006,
+  author  = {Thomas Brambor and William R. Clark and Matt Golder},
+  title   = {Understanding Interaction Models: Improving Empirical Analyses},
+  journal = {Political Analysis},
+  year    = {2006},
+  volume  = {14},
+  number  = {1},
+  pages   = {63-82},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

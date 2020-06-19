@@ -1,0 +1,705 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                               2012 ANES Time Series
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      2012 ANES Time Series                                             Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             ANES 2012 Time Series Case ID                       1
+      DEM_RACEETH        PRE: SUMMARY- R race and ethnicity group            1
+      CANDAFF_ANGDPCOFT  PRE: How often affect angry about Democratic Pre    1
+      CANDAFF_ANGRPCOFT  PRE: How often affect angry about Republican Pre    2
+      PID_X              PRE: SUMMARY- Party ID                              2
+      EFFICPO_CARESTD    POST: [STD] Publ officials don't care what peopl    3
+      DEM_EDUGROUP       PRE: SUMMARY- R level of highest education          3
+      GENDER_RESPONDENT  SUMMARY: Gender of Respondent for both FTF and W    4
+      LIBCPRE_SELF       PRE: 7pt scale Liberal/conservative self-placeme    4
+      DHSINVOLV_CONTACT1 POST: Contact U.S. Representative or Senator        5
+      MOBILPO_RMOB       POST: R talk to anyone about voting for or again    5
+      MOBILPO_SIGN       POST: R wear campaign button or post sign or bum    6
+      DHSINVOLV_MARCH    POST: DHS: Has R in past 4 years: joined a prote    6
+      DHSINVOLV_NETPETITION POST: DHS: Has R in past 4 years: sign intern    7
+      MOBILPO_OTHERWORK  POST: R do any (other) work for party or candida    7
+      MOBILPO_CTBPTY     POST: R contribute money to political party         8
+      MOBILPO_CTBCAND    POST: R contribute money to specific candidate c    8
+      MOBILPO_CTBOTH     POST: R contribute to any other group for/agains    9
+      MOBILPO_RALLY      POST: R go to any political meetings, rallies, s    9
+      DHSINVOLV_BOARD    POST: DHS: Has R in past 4 years: attended city/   10
+      TRUSTGOV_TRUSTGSTD PRE: [STD] How often trust govt in Wash to do wh   10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 1
+
+
+      CASEID             ANES 2012 Time Series Case ID
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/1-4
+
+      ________________________________________________________________________
+
+      DEM_RACEETH        PRE: SUMMARY- R race and ethnicity group
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  White non-Hispanic
+               2  Black non-Hispanic
+               3  Hispanic
+               4  Other non-Hispanic
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/6-7
+
+      ________________________________________________________________________
+
+      CANDAFF_ANGDPCOFT  PRE: How often affect angry about Democratic Pres cand
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -6  Not asked, unit nonresponse
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Always
+               2  Most of the time
+               3  About half the time
+               4  Some of the time
+               5  Never
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/9-10
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 2
+
+
+      CANDAFF_ANGRPCOFT  PRE: How often affect angry about Republican Pres cand
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -6  Not asked, unit nonresponse
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Always
+               2  Most of the time
+               3  About half the time
+               4  Some of the time
+               5  Never
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/12-13
+
+      ________________________________________________________________________
+
+      PID_X              PRE: SUMMARY- Party ID
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -2  Missing
+              -1  Inapplicable
+               1  Strong Democrat
+               2  Not very strong Democract
+               3  Independent-Democrat
+               4  Independent
+               5  Independent-Republican
+               6  Not very strong Republican
+               7  Strong Republican
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/15-16
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 3
+
+
+      EFFICPO_CARESTD    POST: [STD] Publ officials don't care what people think
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Agree strongly
+               2  Agree somewhat
+               3  Neither agree nor disagree
+               4  Disagree somewhat
+               5  Disagree strongly
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/18-19
+
+      ________________________________________________________________________
+
+      DEM_EDUGROUP       PRE: SUMMARY- R level of highest education
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -4  Error
+              -3  Restricted access
+              -2  Missing, other not codeable to 1-5
+              -1  Inapplicable
+               1  Less than high school credential
+               2  High school credential
+               3  Some post-high-school, no bachelor's degree
+               4  Bachelor's degree
+               5  Graduate degree
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/21-22
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 4
+
+
+      GENDER_RESPONDENT  SUMMARY: Gender of Respondent for both FTF and Web modes
+
+           VALUE  LABEL
+              -1  Inapplicable
+               1  Male
+               2  Female
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/column: 1/24
+
+      ________________________________________________________________________
+
+      LIBCPRE_SELF       PRE: 7pt scale Liberal/conservative self-placement
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -6  Not asked, unit nonresponse
+              -4  Error
+              -3  Restricted access
+              -2  Haven't thought much about this
+              -1  Inapplicable
+               1  Extremely liberal
+               2  Liberal
+               3  Slightly liberal
+               4  Moderate; middle of the road
+               5  Slightly conservative
+               6  Conservative
+               7  Extremely conservative
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/26-27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 5
+
+
+      DHSINVOLV_CONTACT1 POST: Contact U.S. Representative or Senator
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Have done this in past 4 years
+               2  Have not done this in the past 4 years
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/29-30
+
+      ________________________________________________________________________
+
+      MOBILPO_RMOB       POST: R talk to anyone about voting for or against cand or pty
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/32-33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 6
+
+
+      MOBILPO_SIGN       POST: R wear campaign button or post sign or bumper sticker
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/35-36
+
+      ________________________________________________________________________
+
+      DHSINVOLV_MARCH    POST: DHS: Has R in past 4 years: joined a protest march
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Have done this in past 4 years
+               2  Have not done this in the past 4 years
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/38-39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 7
+
+
+      DHSINVOLV_NETPETITION POST: DHS: Has R in past 4 years: sign internet petition
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Have done this in past 4 years
+               2  Have not done this in the past 4 years
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/41-42
+
+      ________________________________________________________________________
+
+      MOBILPO_OTHERWORK  POST: R do any (other) work for party or candidate
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/44-45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 8
+
+
+      MOBILPO_CTBPTY     POST: R contribute money to political party
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/47-48
+
+      ________________________________________________________________________
+
+      MOBILPO_CTBCAND    POST: R contribute money to specific candidate campaign
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/50-51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                             Page 9
+
+
+      MOBILPO_CTBOTH     POST: R contribute to any other group for/against a cand
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/53-54
+
+      ________________________________________________________________________
+
+      MOBILPO_RALLY      POST: R go to any political meetings, rallies, speeches
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/56-57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
+
+
+
+      2012 ANES Time Series                                            Page 10
+
+
+      DHSINVOLV_BOARD    POST: DHS: Has R in past 4 years: attended city/school brd
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -7  Deleted due to partial (Post-election) interview
+              -6  Not asked, unit nonresponse (no Post-election interview)
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Have done this in past 4 years
+               2  Have not done this in the past 4 years
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/59-60
+
+      ________________________________________________________________________
+
+      TRUSTGOV_TRUSTGSTD PRE: [STD] How often trust govt in Wash to do what is right
+
+           VALUE  LABEL
+              -9  Refused
+              -8  Don't know
+              -6  Not asked, unit nonresponse
+              -4  Error
+              -3  Restricted access
+              -1  Inapplicable
+               1  Just about always
+               2  Most of the time
+               3  Only some of the time
+               4  Never {VOL}
+
+           Data type: numeric
+           Minimum code defined as valid: 0
+           Record/columns: 1/62-63
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   July 30, 2019
